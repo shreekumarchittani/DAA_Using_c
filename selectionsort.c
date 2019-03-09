@@ -22,7 +22,7 @@ double selectionSort(int a[],int n)//returning time required
     a[min] = temp;
   }
   return((double)(clock()-start)/CLOCKS_PER_SEC);
-  //time = (present clock-starting clack)/clocks per second
+  //time = (present clock-starting clock)/clocks per second
 }
 void main()
 {
