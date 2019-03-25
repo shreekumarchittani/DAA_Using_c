@@ -1,5 +1,4 @@
 #include<stdio.h>
-//#include<conio.h>
 
 int min(int,int);
 
@@ -9,7 +8,7 @@ int i,j,k;
 for(k=1;k<=n;k++)
  for(i=1;i<=n;i++)
   for(j=1;j<=n;j++)
-   d[i][j]=min(d[i][j],d[i][k]+d[k][j]);
+   d[i][j]=min(d[i][j],d[i][k]+d[k][j]);//+ is here because we will add thew path from node to node
 }
 
 int min (int a,int b)
