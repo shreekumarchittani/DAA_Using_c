@@ -1,6 +1,13 @@
 #include<stdio.h>
 
 int min(int,int);
+int min(int a, int b)
+{
+  if(a<b)
+   return a;
+  else
+   return b;
+}
 
 void floyd(int d[50][50],int n)
 {
