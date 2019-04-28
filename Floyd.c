@@ -15,15 +15,6 @@ for(k=1;k<=n;k++)
   for(j=1;j<=n;j++)
    d[i][j]=min(d[i][j],d[i][k]+d[k][j]);//+ is here because we will add thew path from node to node
 }
-
-int min (int a,int b)
-{
-if (a<b)
-return a;
-else
-return b;
-}
-
 void main()
 {
 int d[50][50],i,j,n;
